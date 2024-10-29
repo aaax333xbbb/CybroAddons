@@ -63,7 +63,6 @@
                 </header>
                 <sheet string="Activity">
                     <group invisible="0">
-                        <field name="type" invisible="1"/>
                         <field name="activity_category" invisible="1"/>
                         <field name="res_model" invisible="1"/>
                         <field name="res_name" invisible="0" readonly="0"/>

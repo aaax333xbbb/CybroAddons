@@ -46,8 +46,7 @@ class MailActivity(models.Model):
          ('done', 'Done'), ('cancel', 'Cancelled')],
         string='Type', help='Choose the type of activity.')
 
-    activity_tag_ids = fields.Many2many('activity.tag', string='Activity Tags',
-                                        help='Select activity tags.')
+    #activity_tag_ids = fields.Many2many('activity.tag', string='Activity Tags', help='Select activity tags.')
 
     def activity_cancel(self):
         """cancel activity"""
